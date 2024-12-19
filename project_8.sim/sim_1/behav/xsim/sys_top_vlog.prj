@@ -1,0 +1,59 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/altera_pll_reconfig_core.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/altera_pll_reconfig_top.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/hps_ext.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/i2c.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/i2s.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/iir_filter.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/main.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/MSU1/msu_audio.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/MSU1/msu_fifo.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/osd.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/pll.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/pll/pll_0002.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_audio.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_audio/pll_audio_0002.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/pll_cfg.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/pll_cfg_hdmi.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_hdmi.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_hdmi/pll_hdmi_0002.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/scandoubler.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/scanlines.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/sigma_delta_dac.v" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/spdif.v" \
+
+sv xil_defaultlib  \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/MSU1/MSU.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/SNES.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/alsa.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/cheatcodes.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/ddr_svc.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/f2sdram_safe_terminator.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/gamma_corr.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/hps_io.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/hq2x.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/ioport.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/lightgun.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/math.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/mcp23009.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/miracle.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/MSU1/msu_data_store.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/sdram.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/shadowmask.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/sysmem.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/vga_out.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/video_freak.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/video_freezer.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/video_mixer.sv" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/yc_out.sv" \
+
+verilog xil_defaultlib  \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/sys_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

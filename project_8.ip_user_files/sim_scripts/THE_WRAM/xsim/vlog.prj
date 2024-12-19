@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../project_8.gen/sources_1/ip/THE_WRAM/sim/THE_WRAM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

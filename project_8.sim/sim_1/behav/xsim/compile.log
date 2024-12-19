@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/altera_pll_reconfig_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module altera_pll_reconfig_core
+INFO: [VRFC 10-311] analyzing module self_reset
+INFO: [VRFC 10-311] analyzing module dprio_mux
+INFO: [VRFC 10-311] analyzing module fpll_dprio_init
+INFO: [VRFC 10-311] analyzing module dyn_phase_shift
+INFO: [VRFC 10-311] analyzing module generic_lcell_comb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_cfg/altera_pll_reconfig_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module altera_pll_reconfig_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module audio_out
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:55]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:67]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:119]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:133]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:145]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:157]
+WARNING: [VRFC 10-2938] 'al' is already implicitly declared on line 86 [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:224]
+WARNING: [VRFC 10-2938] 'ar' is already implicitly declared on line 87 [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:240]
+WARNING: [VRFC 10-3824] variable 'div' must explicitly be declared as automatic or static [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:119]
+WARNING: [VRFC 10-3824] variable 'add' must explicitly be declared as automatic or static [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:120]
+WARNING: [VRFC 10-3824] variable 'cnt' must explicitly be declared as automatic or static [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:133]
+WARNING: [VRFC 10-3824] variable 'dly1' must explicitly be declared as automatic or static [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:157]
+WARNING: [VRFC 10-3824] variable 'dly2' must explicitly be declared as automatic or static [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:158]
+ERROR: [VRFC 10-8530] module 'audio_out' is ignored due to previous errors [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:2]
+INFO: [VRFC 10-311] analyzing module aud_mix_top
+ERROR: [VRFC 10-8530] module 'aud_mix_top' is ignored due to previous errors [C:/Users/karans4/Desktop/project_8/project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/audio_out.v:258]

@@ -1,0 +1,63 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/P65816_pkg.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/BCDAdder.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/AddSubBCD.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/ALU.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/SPC700_pkg.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/AddSub.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/BCDAdj.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/ALU.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/AddrGen.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/AddrGen.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/bram.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/smpsim/dpram.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/BSX/BSX_BS.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/BSX/BSX_MCC.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/BSX/BSX_DP.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/BSX/BSXMap.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/CEGen.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/MCode.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/65C816/P65C816.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/CPU.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/CX4/cx4cache.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/CX4/CX4.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/CX4/CX4Map.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/DSP_PKG.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/DSP.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/DSP/DSPn.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/DSP/OBC1.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SRTC.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/DSP/DSP_LHRomMap.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SDD1/Decoder.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/GSU/GSU_PKG.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/GSU/GSU.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/GSU/GSUMap.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SDD1/InputMgr.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/MCode.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/MulDiv.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/PPU_PKG.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/PPU.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/RTC4513.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SA1/SA1MULT.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SA1/SA1DIV.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SA1/SA1.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SA1/SA1Map.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SDD1/SDD1.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SDD1/SDD1Map.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SPC700/SPC700.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SMP.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SWRAM.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/SNES.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110_FIFO.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110_DEC_PKG.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110_DEC.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110_MULDIV.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/SPC7110/SPC7110Map.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/rtl/chip/Sufami/SufamiMap.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/ascal.vhd" \
+"../../../../project_8.srcs/sources_1/imports/SNES_MiSTer-master/sys/pll_hdmi_adj.vhd" \
+
+# Do not sort compile order
+nosort

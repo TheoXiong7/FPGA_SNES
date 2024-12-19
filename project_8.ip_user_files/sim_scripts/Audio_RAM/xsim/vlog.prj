@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../project_8.gen/sources_1/ip/Audio_RAM/sim/Audio_RAM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
